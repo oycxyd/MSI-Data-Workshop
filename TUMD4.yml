@@ -6,7 +6,7 @@ dependencies:
 
   # Core numeric / data handling
   - numpy
-  - pandas
+  - pandas<3
   - scipy
 
   # Plotting
