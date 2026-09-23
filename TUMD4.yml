@@ -1,0 +1,29 @@
+name: TUMD4
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+
+  # Core numeric / data handling
+  - numpy
+  - pandas
+  - scipy
+
+  # Plotting
+  - matplotlib
+  - matplotlib-venn   # venn2 / venn2_circles
+  - seaborn
+  - plotly
+
+  # Machine learning / stats
+  # scikit-learn pinned to 1.7: 1.8+ rejects liblinear LogisticRegression for
+  # >2 classes, and 1.9+ removes LassoCV(n_alphas=...), both used in
+  # classifiers_functions.ipynb.
+  - scikit-learn=1.7
+  - scikit-image      # skimage.metrics.structural_similarity
+  - statsmodels       # fdrcorrection
+  - umap-learn        # import umap
+
+  # Notebook environment
+  - jupyterlab
+  - ipykernel
