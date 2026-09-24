@@ -1,3 +1,5 @@
+# For any query, please contact yuchen.xiang@ur.de or yuchen.xiang11@imperial.ac.uk
+
 # MSI-Data-Workshop
 worked notebooks and data for the practical part of MSI Data Analysis
 
