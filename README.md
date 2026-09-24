@@ -25,4 +25,4 @@ worked notebooks and data for the practical part of MSI Data Analysis
 
 the data files you need (unless you have your own) can be downloaded here:
 
-link
+TUCH/ach/public/NAT0111 Bildgebende Massenspektrometrie Grundlagen und Praktikum/D4 Data files/data ready to load in
